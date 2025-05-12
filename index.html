@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tutorial de Tailwind CSS</title>
+  <script src="https://cdn.tailwindcss.com "></script>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-blue-600 text-white p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">Tailwind CSS Tutorial</h1>
+      <button id="menu-toggle" class="md:hidden focus:outline-none">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- Sidebar -->
+  <aside id="sidebar" class="hidden md:block w-64 bg-gray-100 min-h-screen p-4">
+    <nav>
+      <ul class="space-y-2">
+        <li><a href="index.html" class="block p-2 hover:bg-blue-100 rounded">Página Inicial</a></li>
+        <li><a href="capitulo1.html" class="block p-2 hover:bg-blue-100 rounded">Capítulo 1 – O que é Tailwind?</a></li>
+        <li><a href="capitulo2.html" class="block p-2 hover:bg-blue-100 rounded">Capítulo 2 – Instalação</a></li>
+        <li><a href="capitulo3.html" class="block p-2 hover:bg-blue-100 rounded">Capítulo 3 – Classes Básicas</a></li>
+        <li><a href="capitulo4.html" class="block p-2 hover:bg-blue-100 rounded">Capítulo 4 – Flex & Grid</a></li>
+        <li><a href="capitulo5.html" class="block p-2 hover:bg-blue-100 rounded">Capítulo 5 – Formulários</a></li>
+        <li><a href="capitulo6.html" class="block p-2 hover:bg-blue-100 rounded">Capítulo 6 – Navegação</a></li>
+        <li><a href="capitulo7.html" class="block p-2 hover:bg-blue-100 rounded">Capítulo 7 – Animações</a></li>
+        <li><a href="capitulo8.html" class="block p-2 hover:bg-blue-100 rounded">Capítulo 8 – Customização</a></li>
+        <li><a href="capitulo9.html" class="block p-2 hover:bg-blue-100 rounded">Capítulo 9 – React e Vue</a></li>
+        <li><a href="capitulo10.html" class="block p-2 hover:bg-blue-100 rounded">Capítulo 10 – Melhores Práticas</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Conteúdo Principal -->
+  <main class="container mx-auto px-4 py-8 md:ml-64">
+    <h2 class="text-3xl font-bold mb-4">Bem-vindo ao Tutorial de Tailwind CSS</h2>
+    <p class="mb-4">Este tutorial foi criado com inspiração no estilo do W3Schools, com navegação clara, exemplos práticos e explicações passo a passo sobre como usar o Tailwind CSS.</p>
+
+    <a href="capitulo1.html" class="inline-block mt-6 bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded transition">Começar →</a>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-gray-200 text-center p-4 mt-12">
+    <p class="text-sm text-gray-600">© 2025 Tailwind CSS Tutorial. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- JavaScript para Menu Mobile -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
